@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Harshad R — 2nd year B.E CSE student aspiring to become a cybersecurity engineer. Portfolio showcasing projects, skills, and passion for ethical hacking.">
+    <title>Harshad R | Cybersecurity Portfolio</title>
+    <link rel="icon" href="ic.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- Background Canvases -->
+    <canvas id="matrix-canvas"></canvas>
+    <canvas id="particles-canvas"></canvas>
+    <canvas id="cursor-trail-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Harshad<span class="logo-bracket"> /&gt;</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero / Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content reveal">
+                <p class="hero-greeting">initializing session</p>
+                <h1 class="hero-name" id="hacker-name">Harshad R</h1>
+                <div class="hero-tagline">
+                    <span class="tagline-prefix">~/role:&nbsp;</span>
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="typing-cursor">█</span>
+                </div>
+                <p class="hero-description">
+                    Second-year B.E Computer Science Engineering student with a passion for cybersecurity,
+                    ethical hacking, and building secure systems. Driven to understand how systems work —
+                    and how to protect them.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">[ View Projects ]</a>
+                    <a href="#contact" class="btn btn-outline">[ Get in Touch ]</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <h2 class="section-title reveal">
+                    <span class="title-accent">01.</span> About Me
+                </h2>
+                <div class="about-content reveal">
+                    <div class="glass-card about-card">
+                        <p>
+                            I am a second-year <strong>B.E Computer Science and Engineering</strong> student at
+                            <strong>K. Ramakrishnan College of Technology</strong>, Trichy, Tamil Nadu with a strong
+                            interest in <strong>cybersecurity</strong> and <strong>ethical hacking</strong>.
+                        </p>
+                        <p>
+                            I have hands-on experience with programming languages such as
+                            <strong>Python, Java, C</strong> — along with database management using
+                            <strong>MySQL</strong>
+                            and web technologies including <strong>HTML</strong> and <strong>CSS</strong>.
+                        </p>
+                        <p>
+                            I enjoy understanding how systems work under the hood, finding vulnerabilities, and
+                            building practical projects. Currently exploring cybersecurity fundamentals through
+                            platforms like <strong>TryHackMe</strong> and working toward becoming a
+                            <strong>cybersecurity engineer</strong>.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-number">3+</span>
+                                <span class="highlight-label">Projects</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-number">7+</span>
+                                <span class="highlight-label">Certs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-container">
+                <h2 class="section-title reveal">
+                    <span class="title-accent">02.</span> Skills
+                </h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-category glass-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Programming</h3>
+                        <div class="skill-pills">
+                            <span class="pill">Python</span>
+                            <span class="pill">Java</span>
+                            <span class="pill">C</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3>Web</h3>
+                        <div class="skill-pills">
+                            <span class="pill">HTML</span>
+                            <span class="pill">CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                        </div>
+                        <h3>Database</h3>
+                        <div class="skill-pills">
+                            <span class="pill">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                                <rect x="9" y="9" width="6" height="6"></rect>
+                                <line x1="9" y1="1" x2="9" y2="4"></line>
+                                <line x1="15" y1="1" x2="15" y2="4"></line>
+                                <line x1="9" y1="20" x2="9" y2="23"></line>
+                                <line x1="15" y1="20" x2="15" y2="23"></line>
+                                <line x1="20" y1="9" x2="23" y2="9"></line>
+                                <line x1="20" y1="14" x2="23" y2="14"></line>
+                                <line x1="1" y1="9" x2="4" y2="9"></line>
+                                <line x1="1" y1="14" x2="4" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3>CS Fundamentals</h3>
+                        <div class="skill-pills">
+                            <span class="pill">Data Structures</span>
+                            <span class="pill">OOP</span>
+                            <span class="pill">DBMS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3>Security</h3>
+                        <div class="skill-pills">
+                            <span class="pill">Cybersecurity Basics</span>
+                            <span class="pill">TryHackMe</span>
+                            <span class="pill">Networking</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path
+                                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Tools</h3>
+                        <div class="skill-pills">
+                            <span class="pill">VS Code</span>
+                            <span class="pill">GitHub</span>
+                            <span class="pill">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-container">
+                <h2 class="section-title reveal">
+                    <span class="title-accent">03.</span> Projects
+                </h2>
+                <div class="projects-grid reveal">
+                    <div class="glass-card project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <a href="https://github.com/harshad1234u/Student-Attendance-Alert-System" target="_blank"
+                                class="project-link" aria-label="View on GitHub">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="project-title">Student Attendance Monitoring & Alert System</h3>
+                        <p class="project-description">Console-based Java application to manage student attendance and
+                            calculate real-time attendance percentages. Implemented automated alerts for students below
+                            the 75% threshold. Utilized Java Streams API for efficient data processing and Java NIO for
+                            persistent file handling.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Java NIO</span>
+                            <span class="tech-tag">Streams API</span>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <a href="https://github.com/harshad1234u/Workforce_management_system" target="_blank"
+                                class="project-link" aria-label="View on GitHub">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="project-title">Workforce Management System</h3>
+                        <p class="project-description">Console-based workforce management application in C to automate
+                            employee administration. Designed structured data models using nested structs for employee
+                            profiles, shift schedules, task assignments, and weekly attendance. Utilized pointers for
+                            efficient memory usage.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">Pointers</span>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <a href="https://github.com/harshad1234u/hospital-management-system" target="_blank"
+                                class="project-link" aria-label="View on GitHub">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="project-title">Hospital Management System</h3>
+                        <p class="project-description">CLI-based Hospital Management System to automate administrative
+                            and patient management. Designed MySQL relational database for patient records, staff
+                            details, room allocation, and billing. Built secure Sign Up / Sign In authentication and
+                            used Tabulate for formatted output.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-container">
+                <h2 class="section-title reveal">
+                    <span class="title-accent">04.</span> Get in Touch
+                </h2>
+                <p class="contact-intro reveal">
+                    Open to opportunities, collaborations, and connections in cybersecurity and software development.
+                </p>
+                <div class="contact-grid reveal">
+                    <a href="mailto:harshadambi20@gmail.com" class="glass-card contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Email</h4>
+                        <p>harshadambi20@gmail.com</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harshad-r/" target="_blank" class="glass-card contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h4>LinkedIn</h4>
+                        <p>View Profile</p>
+                    </a>
+                    <a href="https://github.com/harshad1234u" target="_blank" class="glass-card contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </div>
+                        <h4>GitHub</h4>
+                        <p>View Profile</p>
+                    </a>
+                    <a href="https://leetcode.com/harshad1234k" target="_blank" class="glass-card contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h4>LeetCode</h4>
+                        <p>View Profile</p>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/harshad1234k" target="_blank"
+                        class="glass-card contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h4>HackerRank</h4>
+                        <p>View Profile</p>
+                    </a>
+                    <a href="https://tryhackme.com/p/harshad1234k" target="_blank" class="glass-card contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h4>TryHackMe</h4>
+                        <p>View Profile</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-tagline">Built by <span class="gradient-text">Harshad R</span></p>
+            <p class="footer-copy">&copy; 2026 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
