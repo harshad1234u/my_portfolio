@@ -1,154 +1,110 @@
-HARSHAD R 
-궼
-궾
-궽 Trichy, Tamil Nadu 긒
-긓 +91 87678 99782 긼
-긽
-긾
-긿
-김
-깂
-깁 harshadambi20@gmail.com  
-꼏
-꼐 LinkedIn | GitHub  | HackerRank | LeetCode | TryHackMe 
- 
-CAREER OBJECTIVE 
-Detail-oriented second-year Computer Science Engineering student seeking a general IT internship to apply programming, database, 
-and problem-solving skills in a professional environment while gaining real-world exposure to software development and IT systems. 
- 
-PROFESSIONAL SUMMARY 
- 
-B.E CSE student with strong fundamentals in programming and databases 
- 
-Hands-on experience through academic and mini-projects 
- 
-Quick learner with interest in real-world IT applications 
- 
-Strong teamwork, communication, and analytical skills 
- 
-EDUCATION 
- 
-Bachelor of Engineering (B.E) – Computer Science and Engineering 
- 
- 
- 
-K. Ramakrishnan College of Technology 
- 
- 
- 
- 
- 
- 
-2024 – Present 
- CGPA: 7.65 
- 
-Senior Secondary (XII) – CBSE 
-SAV Balakrishna Senior Secondary School   
- 
- 
- 
- 
- 
- 
-2023 – 2024 
- Percentage: 80% 
- 
-Secondary (X) – CBSE 
-SAV Balakrishna Senior Secondary School 
- 
- 
- 
- 
- 
- 
-2021 – 2022  
- Percentage: 77.8% 
- 
-TECHNICAL SKILLS 
- 
-Programming Languages: Python (basic), Java (basic), C (basic) 
- 
-Database: MySQL 
- 
-Web Basics: HTML, CSS 
- 
-Tools: VS Code, Github (basic) 
- 
-Concepts: Data Structures (basic), OOPS (basic), DBMS fundamentals 
- 
-SOFT SKILLS 
- 
-Problem-solving 
- 
-Team collaboration 
- 
-Adaptability 
- 
-Time management 
- 
-PROJECTS 
-Project-3 : Student Attendance Monitoring & Alert System (Java, Java NIO) 
- 
-Developed a console-based Java application to manage student attendance and calculate real-time attendance percentages.
- 
-Implemented an automated alert mechanism to identify students with attendance below the 75% threshold for timely 
-intervention. 
- 
-Utilized Java Streams API to efficiently filter, sort, and process student records. 
- 
-Applied Java NIO for persistent file handling and generation of attendance summary reports. 
- 
- 
- 
+HARSHAD R
 
-Project-2 : Workforce Management System (C, Data Structures, Pointers) 
- 
-Developed a console-based workforce management application in C to automate employee administration tasks. 
- 
-Designed structured data models using nested structs to manage employee profiles, shift schedules, task assignments, and 
-weekly attendance. 
- 
-Implemented core modules including shift assignment, multi-task delegation, attendance tracking, and performance score 
-calculation. 
- 
-Generated formatted individual employee reports for management review. 
- 
-Utilized pointers extensively to enable efficient memory usage and data manipulation across functions. 
- 
-Project-1 : Hospital Management System (Python, MySQL) 
-Developed a CLI-based Hospital Management System to automate administrative and patient management operations. 
- 
-Designed and integrated a MySQL relational database to manage patient records, staff details (doctors and nurses), 
-room allocation, and billing information. 
- 
-Implemented core modules including appointment scheduling, billing, laboratory test reporting, and staff 
-management. 
- 
-Built secure authentication functionality (Sign Up / Sign In) to control administrative access. 
- 
-Utilized the Tabulate library to present database query results in a structured and readable format. 
- 
-Achievement 
- 
-Successfully completed the NPTEL online certification course on “Enhancing Soft Skills and Personality” with an Elite 
-certificate 
- 
-Successfully completed the NPTEL online certification course on “Soft Skill Development” with an Elite certificate 
- 
-Successfully completed the HackerRank Skills Certification on “Java (Basics)”. 
- 
-Successfully completed the Simplilearn certification course on “HTML Basics”, issued on 31st January 2026. 
- 
-Successfully completed the Microsoft Learn module on “Describe the Concepts of Cybersecurity”, conducted on 4th 
-September 2025. 
- 
-Successfully completed the Microsoft Learnathon 25 course on “Learn AI and Gen AI Basics”, conducted on 21st 
-September 2025. 
- 
-Participated in an Industrial Visit at Spectrum Softtech Solutions Pvt. Ltd., Kochi, Kerala’s first private-sector IT Park, 
-organized by K. Ramakrishnan College of Technology as part of the academic curriculum on 30th August 2025. 
- 
-Successfully completed the HackerRank Skills Certification on “Python (Basics)”. 
- 
-Successfully completed the HackerRank Skills Certification on “MySQL (Basics)”. 
- 
+Trichy, Tamil Nadu
++91 87678 99782
+harshadambi20@gmail.com
+
+LinkedIn | GitHub | HackerRank | LeetCode | TryHackMe
+
+CAREER OBJECTIVE
+
+Detail-oriented second-year Computer Science Engineering student seeking
+a general IT internship to apply programming, database, and
+problem-solving skills in a professional environment while gaining
+real-world exposure to software development and IT systems.
+
+PROFESSIONAL SUMMARY
+
+-   B.E. CSE student with strong fundamentals in programming and
+    databases
+-   Hands-on experience through academic and mini-projects
+-   Quick learner with interest in real-world IT applications
+-   Strong teamwork, communication, and analytical skills
+
+EDUCATION
+
+Bachelor of Engineering (B.E.) â€“ Computer Science and Engineering
+
+K. Ramakrishnan College of Technology (2024 â€“ Present)
+CGPA: 7.65
+
+Senior Secondary (XII) â€“ CBSE
+
+SAV Balakrishna Senior Secondary School (2023 â€“ 2024)
+Percentage: 80%
+
+Secondary (X) â€“ CBSE
+
+SAV Balakrishna Senior Secondary School (2021 â€“ 2022)
+Percentage: 77.8%
+
+VIRTUAL EXPERIENCE
+
+Deloitte Australia â€“ Cyber Job Simulation (Forage) (February 2026)
+
+-   Analyzed web activity logs to identify suspicious user behavior
+-   Investigated simulated cyber breach scenarios
+-   Identified automated API abuse patterns
+
+TECHNICAL SKILLS
+
+-   Programming: Python, Java, C
+-   Database: MySQL
+-   Web: HTML, CSS, Streamlit
+-   Cloud & Deployment: Google Cloud Platform (GCP), Cloud Deployment
+-   Tools: VS Code, GitHub, Supabase
+-   Concepts: Data Structures, OOP, DBMS Fundamentals, Log Analysis, AI
+    Basics
+
+SOFT SKILLS
+
+-   Problem-solving
+-   Team collaboration
+-   Adaptability
+-   Time management
+
+WORKSHOPS
+
+AI Agent Development Workshop â€“ Google Developer Groups (February 2026)
+
+-   Learned Agent Development Kit (ADK)
+-   Studied modular AI architecture
+-   Analyzed multi-agent workflows
+
+Build with AI Agent Builder Camp â€“ GeeksforGeeks Ã— Google for Developers (May 2026)
+
+-   Participated in AI agent development workshop
+-   Learned AI workflows, prompt engineering, and practical AI concepts
+
+PROJECTS
+
+AI Quiz Application (Python, Streamlit, Supabase, NVIDIA NIM API)
+
+-   AI-powered quiz platform with personalized quiz generation
+-   NVIDIA NIM API integration for dynamic MCQs
+-   Secure authentication using Supabase and Google OAuth
+-   Timed quizzes, leaderboard, analytics dashboard
+-   Admin dashboard for user and content management
+
+Student Attendance Monitoring & Alert System (Java, Java NIO)
+
+-   Console-based attendance management system
+-   Automated alerts below 75% attendance
+-   Java Streams API and Java NIO implementation
+
+Hospital Management System (Python, MySQL)
+
+-   CLI-based hospital management system
+-   Appointment scheduling, billing, laboratory reports
+-   Secure authentication
+-   MySQL database integration
+
+ACHIEVEMENTS
+
+-   Selected among 150 participants from 768 applicants for Chennai
+    Hackfest 2026 (GDG Chennai)
+-   NPTEL Elite Certification â€“ Enhancing Soft Skills and Personality
+-   HackerRank Skills Certifications: Java, Python, MySQL
+-   Microsoft Learnathon 25 â€“ AI and Generative AI Basics
+-   Microsoft Learn â€“ Concepts of Cybersecurity
+-   Simplilearn Certification â€“ HTML Basics
