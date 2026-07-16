@@ -670,6 +670,12 @@ button:focus-visible,
     font-size: 0.75rem;
 }
 
+.disabled-btn {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 /* ========================================
    TIMELINE, CERTS, STACK, PROFILES
    ======================================== */
